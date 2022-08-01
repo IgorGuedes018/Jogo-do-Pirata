@@ -1,0 +1,234 @@
+body { /* all */
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+/*  tudo dnv*/
+.container { 
+    background-size: cover;
+    object-fit: contain;
+    display: flex;
+    width: 100vw;
+    height: 100vh;    
+}
+
+/*  div do boat */
+.divShip { 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+/*  margem esquerda*/
+.left {        
+    display:flex;    
+    flex-direction: column; 
+    align-items: center;
+    width: 30%;
+    background-image: url("./images/mont.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-evenly;
+    
+}
+
+/*  mar  */
+.sea {        
+    width: 50%;
+    background-image: url("./images/marzim.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: left;
+    object-fit: contain;
+    
+}
+
+/*  margem direita*/
+.right { 
+    display:flex;    
+    flex-direction: column; 
+    align-items: center;
+    width: 30%;
+    background-image: url("./images/munt.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*  so o bote */
+.ship {
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+}
+
+
+.ship:hover {
+    transform: scale(1.08);   
+}
+
+
+
+/*  ovelha  */
+.sheep {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    
+}
+
+.sheep:hover {
+    transform: scale(1.08);
+}
+
+/* nabo  */
+.turnip {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.turnip:hover {
+    transform: scale(1.08);
+}
+
+/*  lobo */
+.wolf {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.wolf:hover {
+    transform: scale(1.08);
+}
+
+/*   quadro de inicio*/
+.start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(100deg, #ffffff 0%, #00ffd5 100%);
+    position:  absolute;
+    text-align: center;
+    border-radius: 30px;
+    padding: 3%;
+    left: 20%;
+    right: 20%;
+    top: 20%;
+    bottom: 20%;
+    box-shadow: 10px 10px 18px rgb(18, 4, 4);
+}
+
+/* lista de dicas*/ 
+.list{
+    text-align: left;
+}
+
+/* texto dicas*/ 
+.dicas{
+    width: 100px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.dicas:hover{
+    transform: scale(1.1);
+}
+
+/*  botao de jogar */
+.button__start{
+    
+    padding: 2%;
+    font-weight: bold;
+    font-size: 15pt;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+
+.button__start:hover{
+    color: white;
+    background-color: black;
+    transition: all 0.5s;
+    transform: scale(1.01);
+}
+
+/*   quadro de vitoria */
+.win{
+    position: absolute;
+    text-align: center;
+    padding: 3%;
+    display: none;
+    z-index: 100;
+    background-color: pink ;
+    left: 36%;
+    top: 35%;
+
+}
+
+/* quadro de derrota  */
+.lose{
+    border-radius: 30px;
+    padding: 3%;
+    position: absolute;
+    text-align: center;
+    display: none;
+    z-index: 100;
+    left: 45%;
+    right: 45%;
+    top: 30%;
+    bottom: 45%;
+    background: linear-gradient(99deg, #ffffff 0%, #00ffd5 100%);
+    box-shadow: 10px 10px 18px rgb(18, 4, 4);
+}
+
+.restart__derr{
+    padding: 2%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.restart__derr:hover{
+    color: white;
+    background-color: black;
+    transition: all 0.5s;
+    transform: scale(1.20);
+}
+
+/* quadro vitoria*/ 
+.win{
+    border-radius: 30px;
+    padding: 3%;
+    position: absolute;
+    text-align: center;
+    display: none;
+    z-index: 100;
+    left: 45%;
+    right: 45%;
+    top: 30%;
+    bottom: 45%;
+    background: linear-gradient(99deg, #ffffff 0%, #00ffd5 100%);
+    box-shadow: 10px 10px 18px rgb(18, 4, 4);
+}
+
+.restart__vit{
+    padding: 2%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.restart__vit:hover{
+    color: white;
+    background-color: black;
+    transition: all 0.5s;
+    transform: scale(1.20);
+}
