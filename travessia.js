@@ -132,7 +132,3 @@ ship.addEventListener('click', () => {                                          
     }
     lose();
 })
-
-
-
-
