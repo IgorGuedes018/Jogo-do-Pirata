@@ -1,5 +1,7 @@
-# Jogo-do-Pirata
+# Jogo do Pirata
 
-- Jogo da travessia, desenvolvido durando as aulas de laboratorio de programação WEB
+Este é um jogo da travessia desenvolvido durante as aulas de laboratório de programação web.
 
--Pages: https://igorguedes018.github.io/Jogo-do-Pirata/
+## Páginas
+
+Você pode jogar o jogo no seguinte link: [Jogo do Pirata](https://igorguedes018.github.io/Jogo-do-Pirata/)
